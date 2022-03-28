@@ -507,12 +507,16 @@ fmt: tools ## Run goimports
 vet: ## Run go vet
 	$(GO) vet ./...
 
-lint: tools go-lint doc-lint misspell yamllint ## Run linting and misspell checks
+lint: tools go-lint doc-lint misspell yamllint actionlint ## Run linting and misspell checks
 	# Check licenses in shell scripts and Makefiles
 	hack/check-license.sh
 
 misspell:
 	hack/check/misspell.sh
+
+actionlint:
+	go install github.com/rhysd/actionlint/cmd/actionlint@latest
+	actionlint -shellcheck=
 
 yamllint:
 	hack/check/check-yaml.sh
