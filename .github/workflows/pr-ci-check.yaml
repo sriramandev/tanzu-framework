@@ -1,5 +1,9 @@
 name: Pull Request CI Check
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ main, release-* ]
+    
 jobs:
   build:
     name: Run CI
