@@ -33,5 +33,3 @@ Thanks for taking the time to join our community and start contributing! We welc
 ## Roadmap
 
 Check out Framework's project [Roadmap](ROADMAP.md) and consider contributing!
-
-
