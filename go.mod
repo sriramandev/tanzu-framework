@@ -82,7 +82,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/avinetworks/sdk v0.0.0-20201123134013-c157ef55b6f7 // indirect
 	github.com/aws/amazon-vpc-cni-k8s v1.12.0 // indirect
-	github.com/aws/aws-sdk-go v1.44.107 // indirect
+	github.com/aws/aws-sdk-go v1.44.209 // indirect
 	github.com/awslabs/goformation/v4 v4.19.5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
