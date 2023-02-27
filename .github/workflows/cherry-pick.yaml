@@ -15,7 +15,7 @@ jobs:
       pr_url: ${{ steps.cherrypick.outputs.html_url }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Cherry pick into release-0.28
