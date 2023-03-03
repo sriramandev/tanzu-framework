@@ -16,7 +16,7 @@ require (
 	github.com/oracle/cluster-api-provider-oci v0.6.0
 	github.com/pkg/errors v0.9.1
 	github.com/vmware-tanzu/carvel-kapp-controller v0.35.0
-	github.com/vmware-tanzu/carvel-secretgen-controller v0.5.0
+	github.com/vmware-tanzu/carvel-secretgen-controller v0.13.1
 	github.com/vmware-tanzu/carvel-vendir v0.26.0
 	github.com/vmware-tanzu/tanzu-framework/apis/addonconfigs v0.0.0-20220907220230-c1137d344dd3
 	github.com/vmware-tanzu/tanzu-framework/apis/run v0.0.0-20220907220230-c1137d344dd3
@@ -24,28 +24,28 @@ require (
 	github.com/vmware-tanzu/vm-operator/external/tanzu-topology v0.0.0-20211209213435-0f4ab286f64f
 	golang.org/x/mod v0.7.0
 	golang.org/x/text v0.7.0
-	golang.org/x/tools v0.1.12
+	golang.org/x/tools v0.3.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/api v0.24.6
-	k8s.io/apiextensions-apiserver v0.24.6
-	k8s.io/apimachinery v0.24.6
-	k8s.io/client-go v0.24.6
-	k8s.io/component-base v0.24.6
+	k8s.io/api v0.25.4
+	k8s.io/apiextensions-apiserver v0.25.0
+	k8s.io/apimachinery v0.25.4
+	k8s.io/client-go v0.25.4
+	k8s.io/component-base v0.25.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/utils v0.0.0-20220812165043-ad590609e2e5
 	knative.dev/pkg v0.0.0-20220302134643-d2cdc682d974
 	sigs.k8s.io/cluster-api v1.2.8
 	sigs.k8s.io/cluster-api-provider-vsphere v1.5.3
-	sigs.k8s.io/controller-runtime v0.12.3
+	sigs.k8s.io/controller-runtime v0.13.1
 	sigs.k8s.io/yaml v1.3.0
 )
 
 require (
-	cloud.google.com/go/compute v1.7.0 // indirect
+	cloud.google.com/go/compute v1.9.0 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
-	github.com/Azure/go-autorest/autorest v0.11.23 // indirect
-	github.com/Azure/go-autorest/autorest/adal v0.9.18 // indirect
+	github.com/Azure/go-autorest/autorest v0.11.27 // indirect
+	github.com/Azure/go-autorest/autorest/adal v0.9.20 // indirect
 	github.com/Azure/go-autorest/autorest/date v0.3.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
@@ -61,7 +61,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
 	github.com/evanphx/json-patch/v5 v5.6.0 // indirect
-	github.com/fsnotify/fsnotify v1.5.4 // indirect
+	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/zapr v1.2.3 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
@@ -69,7 +69,7 @@ require (
 	github.com/gobuffalo/flect v0.2.5 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt/v4 v4.0.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.2.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
