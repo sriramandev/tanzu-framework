@@ -68,7 +68,7 @@ jobs:
 
       - name: Create comment with diffs
         if: ${{ steps.read_actifact.outputs.diffstatus == 0 }}
-        uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v2
         with:
           issue-number: ${{ steps.read_artifact.outputs.prnum }}
           body: |
@@ -79,7 +79,7 @@ jobs:
 
       - name: Create comment indicating no changes detected
         if: ${{ steps.read_actifact.outputs.diffstatus != 0 }}
-        uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v2
         with:
           issue-number: ${{ steps.read_artifact.outputs.prnum }}
           body: |
